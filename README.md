@@ -1,6 +1,36 @@
 # UAS_Ratu-SukmaKomala_1214007_d4TI1A
-Source Code greenfoot 
-public void act()     {         // Add your action code here.         keycontrol();     }     public void keycontrol()     {         if(Greenfoot.isKeyDown("d"))         {             move(5);         }                  if(Greenfoot.isKeyDown("a"))         {             move(-5);         }                  if(Greenfoot.isKeyDown("s"))         {             setLocation(getX(),getY()+5);         }                  if(Greenfoot.isKeyDown("w"))         {             setLocation(getX(),getY()-5);         }              }
+ Source Code greenfoot 
+public void act()
+    {
+        // Add your action code here.
+        keycontrol();
+    }
+    public void keycontrol()
+    {
+        if(Greenfoot.isKeyDown("d"))
+        {
+            move(5);
+        }
+        
+        if(Greenfoot.isKeyDown("a"))
+        {
+            move(-5);
+        }
+        
+        if(Greenfoot.isKeyDown("s"))
+        {
+            setLocation(getX(),getY()+5);
+        }
+        
+        if(Greenfoot.isKeyDown("w"))
+        {
+            setLocation(getX(),getY()-5);
+        }
+        
+    }
+
+
+
 Penjelasan
 
 Source code di bawah ini merupakan sebuah class baru untuk menjalankan dari project yang dibuat.
@@ -42,5 +72,6 @@ public void keycontrol()
         
     }
 
-
 Setelah membuat game pada aplikasi greenfoot langkah selanjutnya yaitu membuat database pada phpmyadmin (menyalakan xampp). Database ini di beri nama greenfootuas, setelah itu kita membuat dua table bernama arah yang berisikan id dan kunci, ,serta mengisikan type untuk id itu INT sedangkan untuk kunci yaitu VARCHAR. Kunci tersbut bisa di isikan dengan huruf huruf seperti d,a,w,s,gg. Database ini bertujuan untuk menjalankan object yang telah dibuat.
+
+
