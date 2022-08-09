@@ -97,6 +97,6 @@ public class koneksi_Dbkoneksi{
     }
 
 Penjelasan Database
-Source code diatas bertujuan untuk mengkoneksian kunci dari game terhubung menggunakan databse.
+Source code diatas bertujuan untuk mengkoneksian kunci dari game agar bisa terhubung menggunakan databse.
 
 
