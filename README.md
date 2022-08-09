@@ -96,5 +96,7 @@ public class koneksi_Dbkoneksi{
         return koneksi;
     }
 
+Penjelasan Database
+Source code diatas bertujuan untuk mengkoneksian kunci dari game terhubung menggunakan databse.
 
 
